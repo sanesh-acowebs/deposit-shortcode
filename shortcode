@@ -21,7 +21,7 @@
 
 		ob_start();
 
-if ( 0 < $customer_orders->total ) :
+       if ( 0 < $customer_orders->total ) :
 
 	?>
 	<table class="woocommerce-orders-table woocommerce-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table">
